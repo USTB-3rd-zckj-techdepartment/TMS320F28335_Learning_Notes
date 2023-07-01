@@ -105,8 +105,8 @@
   
   采集输入频率为1001Hz的正弦波，效果还不错，当然有进一步的优化空间，不过出新手村绝对是没问题的
   
-  ![img](https://lsw8dv5h36.feishu.cn/space/api/box/stream/download/asynccode/?code=NWJjZWU4NDhlZTA4Y2Q0Y2FmZmY3YjY1NTg4YjQ5MDZfdmw2ZWZKWU15T2N0OENqMm1NV1RkcFk0MEh4c2Zuc2pfVG9rZW46Rk4xTWJOQ3VBb2hYT1p4bDJpTmN5ck9vbjNkXzE2ODgyMDQ2MDU6MTY4ODIwODIwNV9WNA)
-  
+![](./picture/1_adc_timer0.png)
+
   ### 首先看看ADC初始化的完全体吧
   
   首先采用内部参考电压（一般不需要更改）
@@ -123,12 +123,12 @@
   
   过大的采样窗口会影响采样时间
   
-  ![img](https://lsw8dv5h36.feishu.cn/space/api/box/stream/download/asynccode/?code=N2VmOTc0YmVjYWNiMDM4MmQxMGUyMmRkM2RjZGY3Yzdfa2RDMGx2REpaUkFKbnUyOGppUWFzTTVSVVdTS3BuOHNfVG9rZW46UTdGM2J1OXZ1b0x5Z0Z4MmtrVWMydGNQblRjXzE2ODgyMDQ2MDU6MTY4ODIwODIwNV9WNA)
-  
+![](./picture/2_PS_WINDOW.png)
+
   下图为我们完整的配置 
   
-  ![img](https://lsw8dv5h36.feishu.cn/space/api/box/stream/download/asynccode/?code=NWZiNGVmNzhjY2IxMjIyYjZhZTE5NzU5Yjk1NmExOTVfb1BBRXVXSWpFSXJFclVzVkFTVU5yUzZ5amI2RWtVTlpfVG9rZW46QWZrSWJ2ODE3bzFaYWF4VmVtUWNubE5SbmlnXzE2ODgyMDQ2MDU6MTY4ODIwODIwNV9WNA)
-  
+![](./picture/3_ADC_CLK.png)
+
   #### ADC工作方式
   
   这一部分涉及的概念较多，建议自行阅读。
